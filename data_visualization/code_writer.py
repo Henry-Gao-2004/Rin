@@ -1,5 +1,4 @@
-import requests
-import ndjson
+from utils import prompt_gpt, response_to_text
 
 def import_libs() -> str:
     output = ""
@@ -43,28 +42,6 @@ def plot(type, x_var, y_var, x_label = "X axis", y_label = "Y axis", title = "Sc
     output += indent * "    " + "plt.show()\n"
     return output
 
-def interpret_command(command) -> str:
-    url = "http://localhost:11434/api/chat"
-    payload = {
-        "model": "gemma3:latest",
-        "messages": [
-            {
-                "role": "user",
-                "content": "You are given three Python functions: import_libs(), read_csv(file_path), and plot(type, x_var, y_var, x_label, y_label, title, indent, x_min, x_max, y_min, y_max, background, text_color, font_size, save_fig, save_path, transparent). Choose one function with given information based on the command provided. Do not generate anything else. Important! The command is: " + command
-            }
-        ]
-    }
-    response = requests.post(url, json=payload)
-    if response.status_code == 200:
-        result = ndjson.loads(response._content)
-        response_text = ""
-        for item in result:
-            if item['message']['role'] == 'assistant':
-                response_text += item['message']['content']
-        return True, response_text.strip()
-    else:
-        return False, response.status_code
-
 def main():
     print("Welcome to the code writer! ")
     print("You can use the following commands:")
@@ -78,8 +55,7 @@ def main():
             print(code)
             break
         else:
-            # command = interpret_command(command)[1]
-            # print(command)
+            command = reponse_to_text(prompt_gpt(command))
             result = eval(command)
             code += result + "\n"
 
