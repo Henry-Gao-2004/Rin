@@ -1,4 +1,4 @@
-from utils import prompt_gpt
+from utils import prompt_gpt, response_to_text
 
 
 def prompt_gpt_test():
