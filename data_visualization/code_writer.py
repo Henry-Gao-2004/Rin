@@ -55,7 +55,7 @@ def main():
             print(code)
             break
         else:
-            command = reponse_to_text(prompt_gpt(command))
+            command = response_to_text(prompt_gpt(command))
             result = eval(command)
             code += result + "\n"
 
