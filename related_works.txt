@@ -1,0 +1,22 @@
+Self learning: 
+“In Dialogues We Learn”: Towards Personalized Dialogue Without Pre-defined Profiles through In-Dialogue Learning
+
+Knowledgeable agent:
+Knowledge-centered conversational agents with a drive to learn
+
+Emotional agent: 
+PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style for Psychological Counseling
+
+Knowledge editing: 
+Evaluating the Ripple Effects of Knowledge Editing in Language Models
+Investigating Multi-Hop Factual Shortcuts in Knowledge Editing of Large Language Models
+
+To read: 
+PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style for Psychological Counseling
+Editing Large Language Models: Problems, Methods, and Opportunities
+Self-Instructed Derived Prompt Generation Meets In-Context Learning: Unlocking New Potential of Black-Box LLMs
+Rewarding What Matters: Step-by-Step Reinforcement Learning for Task-Oriented Dialogue Huifang Du, Shuqin Li, Minghao Wu, Xuejing Feng, Yuan-Fang Li, Haofen Wang — Findings of EMNLP 2024 — introduces fine-grained (per-step) reward formulation that depends on turn/dialogue context (uses history-aware signals).
+MADial-Bench: Towards Real-world Evaluation of Memory for Dialogue (NAACL 2025 long) (MADial-Bench authors) — NAACL 2025 — benchmark and evaluation for long-term memory in dialogue agents (simulated long dialogues with stored historical memories).
+Evaluating Very Long-Term Conversational Memory of LLM Agents
+SSS: Editing Factual Knowledge in Language Models towards Semantic Sparse Space
+EasyEdit: An Easy-to-use Knowledge Editing Framework for LLMs
