@@ -70,6 +70,10 @@ def plot(type, x_var, y_var, x_label = "X axis", y_label = "Y axis", title = "Sc
     return output
 
 def main():
+    """
+    main function for the code writer
+    It takes user input and generates code using the above functions
+    """
     print("Welcome to the code writer! ")
     print("You can use the following commands:")
     print("import_libs()")
