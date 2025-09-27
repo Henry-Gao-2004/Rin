@@ -10,6 +10,7 @@ PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with 
 Knowledge editing: 
 Evaluating the Ripple Effects of Knowledge Editing in Language Models
 Investigating Multi-Hop Factual Shortcuts in Knowledge Editing of Large Language Models
+Know You First and Be You Better: Modeling Human-Like User Simulators via Implicit Profiles
 
 To read: 
 PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style for Psychological Counseling
