@@ -1,5 +1,6 @@
 Self learning: 
 “In Dialogues We Learn”: Towards Personalized Dialogue Without Pre-defined Profiles through In-Dialogue Learning
+Can LLMs Reason in the Wild with Programs?
 
 Knowledgeable agent:
 Knowledge-centered conversational agents with a drive to learn
